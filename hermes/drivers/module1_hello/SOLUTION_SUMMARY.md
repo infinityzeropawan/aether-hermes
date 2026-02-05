@@ -1,5 +1,7 @@
 # HERMES Touch Sensor - Issue Resolution Summary
 
+**Author: Pawan kumar dubey**
+
 ## What Was Happening
 When you touched the sensor on GPIO 17, the Pi was **automatically shutting down**. This was caused by the kernel module calling `msleep()` directly in the interrupt handler, which blocked the kernel and triggered the hardware watchdog timer.
 

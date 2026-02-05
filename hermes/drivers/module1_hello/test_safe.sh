@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Author: Pawan kumar dubey
 # HERMES Safe Touch Sensor Test
 # This version includes watchdog monitoring
 

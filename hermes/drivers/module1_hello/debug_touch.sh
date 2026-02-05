@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Author: Pawan kumar dubey
 # HERMES Touch Sensor Debug & Test Script
 # This script will monitor all system activity while testing the touch sensor
 

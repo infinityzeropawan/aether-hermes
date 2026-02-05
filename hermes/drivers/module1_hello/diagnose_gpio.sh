@@ -1,4 +1,5 @@
 #!/bin/bash
+# Author: Pawan kumar dubey
 
 echo "═══════════════════════════════════════════════"
 echo "HERMES GPIO 17 Wiring Diagnostic"

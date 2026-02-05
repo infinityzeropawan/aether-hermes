@@ -1,5 +1,7 @@
 # HERMES Touch Sensor & LED Wiring Diagram
 
+**Author: Pawan kumar dubey**
+
 ## GPIO Pin Assignments
 
 | Component | GPIO Pin | BCM | Physical Pin |

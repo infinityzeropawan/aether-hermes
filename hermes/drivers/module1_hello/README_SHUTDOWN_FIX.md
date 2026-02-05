@@ -1,5 +1,7 @@
 # HERMES Touch Sensor - Shutdown Issue Fix
 
+**Author: Pawan kumar dubey**
+
 ## Problem Identified
 The original kernel module was **blocking the IRQ handler** by calling `msleep()` directly. This caused the system watchdog (BCM2835) to think the kernel was hung, triggering an automatic reset/shutdown.
 
